@@ -1,0 +1,179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>/Users/dmitrydrobysh/Desktop/Prog3/src</OriginalElement>
+  <nodes>
+    <node x="548.5" y="1.0">components.ballSizes</node>
+    <node x="690.5" y="1.0">components.ballColors</node>
+    <node x="-174.15112433862436" y="-17.0">components.AnyInterface</node>
+    <node x="252.22387566137564" y="472.0">main</node>
+    <node x="-53.0" y="63.0">components.Ichose</node>
+    <node x="401.5" y="1.0">abstractClasses.whichBall</node>
+    <node x="-21.0" y="390.0">mainClasses.character</node>
+    <node x="-207.0" y="63.0">components.iCharacter</node>
+    <node x="-21.0" y="286.0">mainClasses.ball</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="abstractClasses.whichBall" target="components.Ichose" relationship="REALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="465.0" y="-25.0" />
+      <point x="-1.0" y="-25.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mainClasses.ball" target="abstractClasses.whichBall" relationship="GENERALIZATION">
+      <point x="-26.666666666666686" y="-15.0" />
+      <point x="-7.666666666666686" y="264.0" />
+      <point x="496.75" y="264.0" />
+      <point x="31.75" y="15.0" />
+    </edge>
+    <edge source="mainClasses.ball" target="components.ballSizes" relationship="TO_ONE">
+      <point x="0.0" y="-15.0" />
+      <point x="19.0" y="264.0" />
+      <point x="561.1160714285714" y="264.0" />
+      <point x="561.1160714285714" y="73.0" />
+      <point x="579.0" y="73.0" />
+      <point x="-30.5" y="15.0" />
+    </edge>
+    <edge source="main" target="components.ballColors" relationship="DEPENDENCY">
+      <point x="22.5" y="-15.0" />
+      <point x="319.72387566137564" y="451.0" />
+      <point x="513.7863756613756" y="451.0" />
+      <point x="513.7863756613756" y="254.0" />
+      <point x="743.5" y="254.0" />
+      <point x="743.5" y="73.0" />
+      <point x="788.75" y="73.0" />
+      <point x="32.75" y="15.0" />
+    </edge>
+    <edge source="mainClasses.character" target="components.ballColors" relationship="DEPENDENCY">
+      <point x="15.875" y="-15.0" />
+      <point x="58.375" y="368.0" />
+      <point x="397.5267857142857" y="368.0" />
+      <point x="397.5267857142857" y="348.0" />
+      <point x="475.7827380952381" y="348.0" />
+      <point x="475.7827380952381" y="254.0" />
+      <point x="743.5" y="254.0" />
+      <point x="743.5" y="73.0" />
+      <point x="788.75" y="73.0" />
+      <point x="32.75" y="15.0" />
+    </edge>
+    <edge source="components.Ichose" target="components.AnyInterface" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-1.0" y="38.0" />
+      <point x="-98.15112433862436" y="38.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main" target="mainClasses.character" relationship="CREATE">
+      <point x="-22.5" y="-15.0" />
+      <point x="274.72387566137564" y="451.0" />
+      <point x="250.49404761904762" y="451.0" />
+      <point x="250.49404761904762" y="441.0" />
+      <point x="42.5" y="441.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mainClasses.character" target="components.iCharacter" relationship="REALIZATION">
+      <point x="-47.625" y="-15.0" />
+      <point x="-5.125" y="368.0" />
+      <point x="-140.0" y="368.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mainClasses.character" target="abstractClasses.whichBall" relationship="DEPENDENCY">
+      <point x="15.875" y="-15.0" />
+      <point x="58.375" y="368.0" />
+      <point x="397.5267857142857" y="368.0" />
+      <point x="397.5267857142857" y="348.0" />
+      <point x="433.25" y="348.0" />
+      <point x="-31.75" y="15.0" />
+    </edge>
+    <edge source="mainClasses.character" target="mainClasses.ball" relationship="TO_ONE">
+      <point x="-15.875" y="-15.0" />
+      <point x="26.625" y="358.0" />
+      <point x="-1.0" y="358.0" />
+      <point x="-20.0" y="15.0" />
+    </edge>
+    <edge source="components.iCharacter" target="components.AnyInterface" relationship="INTERFACE_GENERALIZATION">
+      <point x="0.0" y="-15.0" />
+      <point x="-140.0" y="38.0" />
+      <point x="-98.15112433862436" y="38.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="mainClasses.ball" target="components.ballSizes" relationship="DEPENDENCY">
+      <point x="26.666666666666686" y="-15.0" />
+      <point x="45.666666666666686" y="254.0" />
+      <point x="582.8690476190476" y="254.0" />
+      <point x="582.8690476190476" y="63.0" />
+      <point x="690.9904100529101" y="63.0" />
+      <point x="690.9904100529101" y="53.0" />
+      <point x="640.0" y="53.0" />
+      <point x="30.5" y="15.0" />
+    </edge>
+    <edge source="main" target="components.ballSizes" relationship="DEPENDENCY">
+      <point x="22.5" y="-15.0" />
+      <point x="319.72387566137564" y="451.0" />
+      <point x="513.7863756613756" y="451.0" />
+      <point x="513.7863756613756" y="441.0" />
+      <point x="506.0" y="441.0" />
+      <point x="506.0" y="264.0" />
+      <point x="690.9904100529101" y="264.0" />
+      <point x="690.9904100529101" y="53.0" />
+      <point x="640.0" y="53.0" />
+      <point x="30.5" y="15.0" />
+    </edge>
+    <edge source="mainClasses.character" target="components.ballSizes" relationship="DEPENDENCY">
+      <point x="15.875" y="-15.0" />
+      <point x="58.375" y="368.0" />
+      <point x="397.5267857142857" y="368.0" />
+      <point x="397.5267857142857" y="348.0" />
+      <point x="401.2440476190476" y="348.0" />
+      <point x="401.2440476190476" y="264.0" />
+      <point x="690.9904100529101" y="264.0" />
+      <point x="690.9904100529101" y="53.0" />
+      <point x="640.0" y="53.0" />
+      <point x="30.5" y="15.0" />
+    </edge>
+    <edge source="mainClasses.ball" target="components.ballColors" relationship="TO_ONE">
+      <point x="0.0" y="-15.0" />
+      <point x="19.0" y="264.0" />
+      <point x="561.1160714285714" y="264.0" />
+      <point x="561.1160714285714" y="73.0" />
+      <point x="723.25" y="73.0" />
+      <point x="-32.75" y="15.0" />
+    </edge>
+    <edge source="mainClasses.ball" target="components.ballColors" relationship="DEPENDENCY">
+      <point x="26.666666666666686" y="-15.0" />
+      <point x="45.666666666666686" y="254.0" />
+      <point x="323.8690476190476" y="254.0" />
+      <point x="323.8690476190476" y="244.0" />
+      <point x="743.5" y="244.0" />
+      <point x="743.5" y="73.0" />
+      <point x="788.75" y="73.0" />
+      <point x="32.75" y="15.0" />
+    </edge>
+    <edge source="mainClasses.character" target="mainClasses.ball" relationship="CREATE">
+      <point x="47.625" y="-15.0" />
+      <point x="90.125" y="358.0" />
+      <point x="495.0" y="358.0" />
+      <point x="495.0" y="338.0" />
+      <point x="39.0" y="338.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+    <edge source="main" target="mainClasses.ball" relationship="CREATE">
+      <point x="-22.5" y="-15.0" />
+      <point x="274.72387566137564" y="451.0" />
+      <point x="250.49404761904762" y="451.0" />
+      <point x="250.49404761904762" y="441.0" />
+      <point x="495.0" y="441.0" />
+      <point x="495.0" y="338.0" />
+      <point x="39.0" y="338.0" />
+      <point x="20.0" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic" zoom="1.0" showDependencies="true" x="281.5" y="251.0" />
+  <SelectedNodes>
+    <node>main</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
