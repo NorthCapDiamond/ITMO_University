@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_302" class="java.beans.XMLDecoder">
+ <object class="java.util.LinkedList">
+  <void method="add">
+   <object class="data.MusicBand">
+    <void property="albumsCount">
+     <int>3</int>
+    </void>
+    <void property="bestAlbum">
+     <object class="data.Album">
+      <void property="length">
+       <int>2184</int>
+      </void>
+      <void property="name">
+       <string>Past lives</string>
+      </void>
+      <void property="sales">
+       <long>1000000000</long>
+      </void>
+      <void property="tracks">
+       <long>11</long>
+      </void>
+     </object>
+    </void>
+    <void property="coordinates">
+     <object class="data.Coordinates"/>
+    </void>
+    <void property="genre">
+     <object class="java.lang.Enum" method="valueOf">
+      <class>data.MusicGenre</class>
+      <string>ROCK</string>
+     </object>
+    </void>
+    <void property="id">
+     <int>10101</int>
+    </void>
+    <void property="name">
+     <string>Against the Current</string>
+    </void>
+    <void property="numberOfParticipants">
+     <int>3</int>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

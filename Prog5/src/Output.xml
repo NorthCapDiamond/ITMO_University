@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<collectionManager>
+    <musicBands>
+        <id>1146743572</id>
+        <name>Panic! At The Disco</name>
+        <creationDate>1207-04-16</creationDate>
+        <numberOfParticipants>1</numberOfParticipants>
+        <albumsCount>5</albumsCount>
+        <genre>POP</genre>
+        <bestAlbum>
+            <length>100</length>
+            <name>Pray for the Wicked</name>
+            <sales>1010101010100101</sales>
+            <tracks>11</tracks>
+        </bestAlbum>
+    </musicBands>
+    <musicBands>
+        <id>10101</id>
+        <name>Against the Current</name>
+        <coordinates>
+            <x>1.0</x>
+            <y>2</y>
+        </coordinates>
+        <creationDate>2022-05-24</creationDate>
+        <numberOfParticipants>3</numberOfParticipants>
+        <albumsCount>3</albumsCount>
+        <genre>ROCK</genre>
+        <bestAlbum>
+            <length>2184</length>
+            <name>Past lives</name>
+            <sales>1000000000</sales>
+            <tracks>11</tracks>
+        </bestAlbum>
+    </musicBands>
+    <creationDate>2022-05-24T20:56:13.197+03:00</creationDate>
+</collectionManager>
